@@ -168,7 +168,7 @@
          <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token function">browser</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">"opera"</span><span class="token punctuation">)</span>
              link<span class="token punctuation">.</span>onload <span class="token operator">=</span> cb<span class="token punctuation">;</span>
          <span class="token keyword">else</span>
-         <span class="token comment" spellcheck=true>//FF, Safari, Chrome</span>
+         <span class="token comment">//FF, Safari, Chrome</span>
              <span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
                  <span class="token keyword">try</span> <span class="token punctuation">{</span>
                      link<span class="token punctuation">.</span>sheet<span class="token punctuation">.</span>cssRule<span class="token punctuation">;</span>
@@ -191,7 +191,7 @@
         remainingCss <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
 
      <span class="token keyword">var</span> loadCss <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-         <span class="token comment" spellcheck=true>//load css</span>
+         <span class="token comment">//load css</span>
          <span class="token keyword">if</span> <span class="token punctuation">(</span>data<span class="token punctuation">.</span>Css <span class="token operator">&amp;</span>amp<span class="token punctuation">;</span><span class="token operator">&amp;</span>amp<span class="token punctuation">;</span> data<span class="token punctuation">.</span>Css<span class="token punctuation">.</span>length<span class="token punctuation">)</span> <span class="token punctuation">{</span>
              remainingCss <span class="token operator">=</span> data<span class="token punctuation">.</span>Css<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
              <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> remainingCss<span class="token punctuation">;</span> i<span class="token operator">--</span><span class="token punctuation">;</span> <span class="token punctuation">)</span>
@@ -210,7 +210,7 @@
 
      <span class="token keyword">var</span> loadJs <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
          <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>data<span class="token punctuation">.</span>Js<span class="token punctuation">)</span> <span class="token keyword">return</span><span class="token punctuation">;</span>
-         <span class="token comment" spellcheck=true>//load js</span>
+         <span class="token comment">//load js</span>
          <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> data<span class="token punctuation">.</span>Js<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
              Loader<span class="token punctuation">.</span><span class="token function">loadJs</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>Js<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
      <span class="token punctuation">}</span>
@@ -221,13 +221,13 @@
  <span class="token keyword">var</span> BigPipe <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>count<span class="token punctuation">)</span> <span class="token punctuation">{</span>
 
      <span class="token keyword">var</span> d <span class="token operator">=</span> document<span class="token punctuation">,</span>
-        pagelets <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>         <span class="token comment" spellcheck=true>/* registered pagelets */</span>
+        pagelets <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>         <span class="token comment">/* registered pagelets */</span>
 
      <span class="token keyword">var</span> onPageletArrive <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>p<span class="token punctuation">)</span> <span class="token punctuation">{</span>
          count <span class="token operator">=</span> count <span class="token operator">||</span> p<span class="token punctuation">.</span>count<span class="token punctuation">;</span>
          <span class="token keyword">var</span> pagelet <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">PageLet</span><span class="token punctuation">(</span>p<span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
              <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span> <span class="token operator">--</span>count<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                 <span class="token comment" spellcheck=true>//load js</span>
+                 <span class="token comment">//load js</span>
                  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> pagelets<span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
                      pagelets<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">loadJs</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
              <span class="token punctuation">}</span>

@@ -84,10 +84,10 @@
       <span class="token keyword">var</span> href <span class="token operator">=</span> link<span class="token punctuation">.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token string">"href"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
       <span class="token operator">...</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><p>As we see, this is only done for touch devices. Non-touch devices see normal links, so we can provide the default navigation for the rest of devices. That is nice for our progressive enhancement approach.</p><p>This workaround works nice when applied to a hash based ajax navigation. In addition, if we want to use History API, then we could call <code>history.pushState()</code> in the click event, once we have replaced the href to its original value. That way we would use the hash as a temporary hack to prevent Safari browser from showing the bar. Have a look at this snippet:</p><pre class=language-js><code class=language-js><span class="token comment" spellcheck=true>//hide bar on page load</span>
+</code></pre><p>As we see, this is only done for touch devices. Non-touch devices see normal links, so we can provide the default navigation for the rest of devices. That is nice for our progressive enhancement approach.</p><p>This workaround works nice when applied to a hash based ajax navigation. In addition, if we want to use History API, then we could call <code>history.pushState()</code> in the click event, once we have replaced the href to its original value. That way we would use the hash as a temporary hack to prevent Safari browser from showing the bar. Have a look at this snippet:</p><pre class=language-js><code class=language-js><span class="token comment">//hide bar on page load</span>
 <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>  window<span class="token punctuation">.</span><span class="token function">scrollTo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment" spellcheck=true>//attach event touchend</span>
+<span class="token comment">//attach event touchend</span>
 document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>
     <span class="token string">'touchend'</span><span class="token punctuation">,</span>
     <span class="token keyword">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -103,7 +103,7 @@ document<span class="token punctuation">.</span><span class="token function">add
     <span class="token boolean">false</span>
 <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment" spellcheck=true>//attach event click</span>
+<span class="token comment">//attach event click</span>
 document<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span>
     <span class="token string">'click'</span><span class="token punctuation">,</span>
     <span class="token keyword">function</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token punctuation">{</span>

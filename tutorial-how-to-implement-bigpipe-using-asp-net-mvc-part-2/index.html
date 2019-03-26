@@ -50,11 +50,11 @@
     <span class="token keyword">public</span> <span class="token keyword">readonly</span> <span class="token keyword">string</span> Container<span class="token punctuation">;</span>
     <span class="token keyword">public</span> Data Data <span class="token punctuation">{</span> <span class="token keyword">get</span><span class="token punctuation">;</span> <span class="token keyword">set</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
 
-    <span class="token comment" spellcheck=true>/// &lt;summary></span>
-    <span class="token comment" spellcheck=true>/// Manages a pagelet</span>
-    <span class="token comment" spellcheck=true>/// &lt;/summary></span>
-    <span class="token comment" spellcheck=true>/// &lt;param name=container>The id of the div container in which the output will be appended&lt;/param></span>
-    <span class="token comment" spellcheck=true>/// &lt;param name=action>The action to execute that will generate the output&lt;/param></span>
+    <span class="token comment">/// &lt;summary></span>
+    <span class="token comment">/// Manages a pagelet</span>
+    <span class="token comment">/// &lt;/summary></span>
+    <span class="token comment">/// &lt;param name=container>The id of the div container in which the output will be appended&lt;/param></span>
+    <span class="token comment">/// &lt;param name=action>The action to execute that will generate the output&lt;/param></span>
     <span class="token keyword">public</span> <span class="token function">Pagelet</span><span class="token punctuation">(</span><span class="token keyword">string</span> container<span class="token punctuation">,</span> Func<span class="token operator">&lt;</span><span class="token keyword">string</span><span class="token operator">></span> action<span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
         <span class="token keyword">this</span><span class="token punctuation">.</span>Container <span class="token operator">=</span> container<span class="token punctuation">;</span>
@@ -77,7 +77,7 @@
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
 </code></pre><p>The Js and Css arrays of strings will contain the files of these types needed by the pagelet to be styled and work correctly (in the next post I will make heavier use of these fields when covering the Javascript script).</p><p>The <code>Serialize()</code> method will generate the code to make the call to inject the code into its container.</p><p>Next, we will define some helpers that will be used to register the pagelet and store the output of the RenderAction call.</p><p>We want the rendered content to be converted into a JSON object so, instead of just rendering the action (writing the output directly to the response), we will render the action storing the result in a string. For this, we will use RenderActionToString.</p><p>We need a way to get the result of the RenderAction as a string. Following a similar method to the one used to <a href=http://www.klopfenstein.net/lorenz.aspx/render-partial-view-to-string-in-asp-net-mvc target=_blank rel=noopener>render a partial view to a string</a>, we can declare extension methods to get the output of an action:</p><pre class=language-csharp><code class=language-csharp><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">RendererHelper</span> <span class="token punctuation">{</span>
-    <span class="token comment" spellcheck=true>/// &lt;summary>Fake IView implementation, only used to instantiate an HtmlHelper.&lt;/summary></span>
+    <span class="token comment">/// &lt;summary>Fake IView implementation, only used to instantiate an HtmlHelper.&lt;/summary></span>
     <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">FakeView</span> <span class="token punctuation">:</span> IView
     <span class="token punctuation">{</span>
         <span class="token preprocessor property">#<span class="token directive keyword">region</span> IView Members</span>
@@ -90,11 +90,11 @@
 
     <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">string</span> <span class="token function">RenderActionToString</span><span class="token punctuation">(</span><span class="token keyword">this</span> HtmlHelper helper<span class="token punctuation">,</span> HttpRequest request<span class="token punctuation">,</span> <span class="token keyword">string</span> controller<span class="token punctuation">,</span> <span class="token keyword">string</span> action<span class="token punctuation">)</span>
     <span class="token punctuation">{</span>
-        <span class="token comment" spellcheck=true>//Create memory writer</span>
+        <span class="token comment">//Create memory writer</span>
         <span class="token keyword">var</span> sb <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StringBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token keyword">var</span> memWriter <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StringWriter</span><span class="token punctuation">(</span>sb<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        <span class="token comment" spellcheck=true>//Create fake http context to render the view</span>
+        <span class="token comment">//Create fake http context to render the view</span>
         <span class="token keyword">var</span> fakeResponse <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HttpResponse</span><span class="token punctuation">(</span>memWriter<span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token keyword">var</span> fakeContext <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HttpContext</span><span class="token punctuation">(</span>request<span class="token punctuation">,</span> fakeResponse<span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token keyword">var</span> fakeControllerContext <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ControllerContext</span><span class="token punctuation">(</span>
@@ -105,16 +105,16 @@
         <span class="token keyword">var</span> oldContext <span class="token operator">=</span> HttpContext<span class="token punctuation">.</span>Current<span class="token punctuation">;</span>
         HttpContext<span class="token punctuation">.</span>Current <span class="token operator">=</span> fakeContext<span class="token punctuation">;</span>
 
-        <span class="token comment" spellcheck=true>//Use HtmlHelper to render partial view to fake context</span>
+        <span class="token comment">//Use HtmlHelper to render partial view to fake context</span>
         <span class="token keyword">var</span> html <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HtmlHelper</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ViewContext</span><span class="token punctuation">(</span>fakeControllerContext<span class="token punctuation">,</span>
             <span class="token keyword">new</span> <span class="token class-name">FakeView</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">ViewDataDictionary</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">TempDataDictionary</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> memWriter<span class="token punctuation">)</span><span class="token punctuation">,</span>
             <span class="token keyword">new</span> <span class="token class-name">ViewPage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         html<span class="token punctuation">.</span><span class="token function">RenderAction</span><span class="token punctuation">(</span>action<span class="token punctuation">,</span> controller<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        <span class="token comment" spellcheck=true>//Restore context</span>
+        <span class="token comment">//Restore context</span>
         HttpContext<span class="token punctuation">.</span>Current <span class="token operator">=</span> oldContext<span class="token punctuation">;</span>
 
-        <span class="token comment" spellcheck=true>//Flush memory and return output</span>
+        <span class="token comment">//Flush memory and return output</span>
         memWriter<span class="token punctuation">.</span><span class="token function">Flush</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         <span class="token keyword">return</span> sb<span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
@@ -128,8 +128,8 @@
 
         <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>jsEnabled<span class="token punctuation">)</span>
         <span class="token punctuation">{</span>
-            <span class="token comment" spellcheck=true>//JavaScript is not enabled, so we write the execution to the output and</span>
-            <span class="token comment" spellcheck=true>//not register the pagelet</span>
+            <span class="token comment">//JavaScript is not enabled, so we write the execution to the output and</span>
+            <span class="token comment">//not register the pagelet</span>
             <span class="token keyword">if</span> <span class="token punctuation">(</span>pagelet<span class="token punctuation">.</span>Data<span class="token punctuation">.</span>Css <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span>
                 <span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token keyword">string</span> css <span class="token keyword">in</span> pagelet<span class="token punctuation">.</span>Data<span class="token punctuation">.</span>Css<span class="token punctuation">)</span>
                     helper<span class="token punctuation">.</span><span class="token function">IncludeCss</span><span class="token punctuation">(</span>css<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -148,7 +148,7 @@
         <span class="token punctuation">}</span>
         pagelets<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>pagelet<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        <span class="token comment" spellcheck=true>//write pagelet container</span>
+        <span class="token comment">//write pagelet container</span>
         context<span class="token punctuation">.</span>Response<span class="token punctuation">.</span><span class="token function">Write</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>div id<span class="token operator">=</span>\ <span class="token operator">+</span> pagelet<span class="token punctuation">.</span>Container <span class="token operator">+</span> \<span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>

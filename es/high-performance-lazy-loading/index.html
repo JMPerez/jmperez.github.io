@@ -47,7 +47,7 @@
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
 <span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment" spellcheck=true>// ...</span>
+<span class="token comment">// ...</span>
 
 <span class="token keyword">const</span> ConnectedComponent <span class="token operator">=</span> <span class="token function">connect</span><span class="token punctuation">(</span>
   mapStateToProps<span class="token punctuation">,</span>
@@ -101,9 +101,9 @@
   <span class="token punctuation">}</span>
   <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token punctuation">(</span>
-      <span class="token comment" spellcheck=true>// creamos un div para obtener una referencia.</span>
-      <span class="token comment" spellcheck=true>// Es posible usar findDOMNode() para evitar</span>
-      <span class="token comment" spellcheck=true>// crear elementos extras, pero findDOMNode está desaconsejado</span>
+      <span class="token comment">// creamos un div para obtener una referencia.</span>
+      <span class="token comment">// Es posible usar findDOMNode() para evitar</span>
+      <span class="token comment">// crear elementos extras, pero findDOMNode está desaconsejado</span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>
         <span class="token attr-name">ref</span><span class="token script language-javascript"><span class="token punctuation">=</span><span class="token punctuation">{</span>div <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
           <span class="token keyword">this</span><span class="token punctuation">.</span>container <span class="token operator">=</span> div<span class="token punctuation">;</span>
@@ -133,7 +133,7 @@
 
   <span class="token function">initializeMap</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span> initialized<span class="token punctuation">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment" spellcheck=true>// loadScript carga un script externo, su definición no se incluye aquí.</span>
+    <span class="token comment">// loadScript carga un script externo, su definición no se incluye aquí.</span>
     <span class="token function">loadScript</span><span class="token punctuation">(</span><span class="token string">'https://maps.google.com/maps/api/js?key=&lt;your_key>'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
       <span class="token keyword">const</span> latlng <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">google<span class="token punctuation">.</span>maps<span class="token punctuation">.</span>LatLng</span><span class="token punctuation">(</span><span class="token number">38.34</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">0.48</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
       <span class="token keyword">const</span> myOptions <span class="token operator">=</span> <span class="token punctuation">{</span> zoom<span class="token punctuation">:</span> <span class="token number">15</span><span class="token punctuation">,</span> center<span class="token punctuation">:</span> latlng <span class="token punctuation">}</span><span class="token punctuation">;</span>
@@ -217,7 +217,7 @@
   <span class="token operator">...</span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Observer</span><span class="token punctuation">></span></span>
     <span class="token punctuation">{</span><span class="token punctuation">(</span>isVisible<span class="token punctuation">,</span> hasBeenVisible<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span>
-      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Gallery</span> <span class="token attr-name">hasBeenVisible</span> <span class="token punctuation">/></span></span> <span class="token comment" spellcheck=true>// Gallery ya no necesita estado</span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Gallery</span> <span class="token attr-name">hasBeenVisible</span> <span class="token punctuation">/></span></span> <span class="token comment">// Gallery ya no necesita estado</span>
     <span class="token punctuation">}</span>
   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Observer</span><span class="token punctuation">></span></span>
   <span class="token operator">...</span>
@@ -301,14 +301,14 @@
 </code></pre><p>Una vez definido podemos utilizarlo de la misma forma que el resto de componentes. Esta es una muestra del potencial de abstraer la lógica para detectar la visibilidad fuera de los componentes que la necesitan.</p><h2 id=Haciendo-polyfill-de-IntersectionObserver-bajo-demanda><a href=#Haciendo-polyfill-de-IntersectionObserver-bajo-demanda class=headerlink title="Haciendo polyfill de IntersectionObserver bajo demanda"></a>Haciendo polyfill de IntersectionObserver bajo demanda</h2><p>Hasta ahora hemos utilizado IntersectionObserver para detectar cuándo un elemento se muestra en pantalla. En el momento de escribir este artículo algunos navegadores, como Safari, no soportan IntersecionObserver. Si lo intentamos instanciar el navegador lanzará un error.</p><p>Podríamos establecer <code>isVisible</code> a <code>true</code> cuando IntersectionObserver no esté disponible, lo que en la práctica desactivaría el lazy-loading. En cierta manera consideraríamos lazy-loading como un progressive enhancement:</p><pre class=language-js><code class=language-js><span class="token keyword">class</span> <span class="token class-name">Observer</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
   <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">super</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment" spellcheck=true>// isVisible se inicializa a true si el</span>
-    <span class="token comment" spellcheck=true>// navegador no soporta IntersectionObserver</span>
+    <span class="token comment">// isVisible se inicializa a true si el</span>
+    <span class="token comment">// navegador no soporta IntersectionObserver</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span> isVisible<span class="token punctuation">:</span> <span class="token operator">!</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>IntersectionObserver<span class="token punctuation">)</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>io <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
     <span class="token keyword">this</span><span class="token punctuation">.</span>container <span class="token operator">=</span> <span class="token keyword">null</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
   <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment" spellcheck=true>// sólo inicializamos IntersectionObserver si está soportado</span>
+    <span class="token comment">// sólo inicializamos IntersectionObserver si está soportado</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span>window<span class="token punctuation">.</span>IntersectionObserver<span class="token punctuation">)</span> <span class="token punctuation">{</span>
       <span class="token keyword">this</span><span class="token punctuation">.</span>io <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">IntersectionObserver</span><span class="token punctuation">(</span>entries <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
         <span class="token operator">...</span>

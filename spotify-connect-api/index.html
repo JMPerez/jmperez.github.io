@@ -45,14 +45,14 @@
 </code></pre><pre class=language-js><code class=language-js><span class="token keyword">var</span> spotifyPlayer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SpotifyPlayer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 spotifyPlayer<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'update'</span><span class="token punctuation">,</span> response <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
-  <span class="token comment" spellcheck=true>// render the track received</span>
+  <span class="token comment">// render the track received</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 spotifyPlayer<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'login'</span><span class="token punctuation">,</span> user <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
   <span class="token keyword">if</span> <span class="token punctuation">(</span>user <span class="token operator">===</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token comment" spellcheck=true>// no user</span>
+    <span class="token comment">// no user</span>
   <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-    <span class="token comment" spellcheck=true>// say hello to the user, and tell them to play something!</span>
+    <span class="token comment">// say hello to the user, and tell them to play something!</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
