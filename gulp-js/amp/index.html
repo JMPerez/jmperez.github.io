@@ -32,7 +32,7 @@
 			    "@type":"WebPage",
 			    "@id":"gulp-js/"
 			},
-			"datePublished": "2014-01-08T22:55:00.000Z",
+			"datePublished": "2014-01-09T07:55:00.000Z",
 			"dateModified": "2019-03-19T08:12:57.805Z",
 			
 			"image": {
@@ -834,7 +834,7 @@ pre[class*='language-'] {
           </div>
           <div class="bd">
             <address class="name" itemprop="author" itemscope itemtype="https://schema.org/Person"><a href="/about-me/" itemprop="name">José M. Pérez</a></address>
-            <meta class="post-data" itemprop="datePublished" content="2014-01-08T22:55:00.000Z">
+            <meta class="post-data" itemprop="datePublished" content="2014-01-09T07:55:00.000Z">
               January 08 2014
             </meta>
           </div>
@@ -857,14 +857,14 @@ pre[class*='language-'] {
     concat <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&apos;gulp-concat&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
     uglify <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&apos;gulp-uglify&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment">// Lint JS</span>
+<span class="token comment" spellcheck="true">// Lint JS</span>
 gulp<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span><span class="token string">&apos;lint&apos;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   gulp<span class="token punctuation">.</span><span class="token function">src</span><span class="token punctuation">(</span><span class="token string">&apos;./src/*.js&apos;</span><span class="token punctuation">)</span>
     <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span><span class="token function">jshint</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
     <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>jshint<span class="token punctuation">.</span><span class="token function">reporter</span><span class="token punctuation">(</span><span class="token string">&apos;default&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment">// Concat &amp; Minify JS</span>
+<span class="token comment" spellcheck="true">// Concat &amp; Minify JS</span>
 gulp<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span><span class="token string">&apos;minify&apos;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
     gulp<span class="token punctuation">.</span><span class="token function">src</span><span class="token punctuation">(</span><span class="token string">&apos;./src/*.js&apos;</span><span class="token punctuation">)</span>
         <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span><span class="token function">concat</span><span class="token punctuation">(</span><span class="token string">&apos;all.js&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
@@ -872,11 +872,11 @@ gulp<span class="token punctuation">.</span><span class="token function">task</s
         <span class="token punctuation">.</span><span class="token function">pipe</span><span class="token punctuation">(</span>gulp<span class="token punctuation">.</span><span class="token function">dest</span><span class="token punctuation">(</span><span class="token string">&apos;./dist/&apos;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment">// Default</span>
+<span class="token comment" spellcheck="true">// Default</span>
 gulp<span class="token punctuation">.</span><span class="token function">task</span><span class="token punctuation">(</span><span class="token string">&apos;default&apos;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
   gulp<span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token string">&apos;lint&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;minify&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-  <span class="token comment">// Watch JS Files</span>
+  <span class="token comment" spellcheck="true">// Watch JS Files</span>
   gulp<span class="token punctuation">.</span><span class="token function">watch</span><span class="token punctuation">(</span><span class="token string">&quot;./src/*.js&quot;</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>event<span class="token punctuation">)</span><span class="token punctuation">{</span>
     gulp<span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span><span class="token string">&apos;lint&apos;</span><span class="token punctuation">,</span> <span class="token string">&apos;minify&apos;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>

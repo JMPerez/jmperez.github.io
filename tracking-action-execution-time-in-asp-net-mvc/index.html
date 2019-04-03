@@ -9,7 +9,7 @@
       "@type":"WebPage",
       "@id":"https://jmperezperez.com/tracking-action-execution-time-in-asp-net-mvc/"
   },
-  "datePublished": "2010-06-21T14:33:44.000Z",
+  "datePublished": "2010-06-21T23:33:44.000Z",
   "dateModified": "2019-03-19T08:12:57.795Z",
   
   "author": {
@@ -34,7 +34,7 @@
       }
       
   }
-}</script><div class="media author"><div class=img><a href="/about-me/?ref=post-header"><img src=https://res.cloudinary.com/jmperez/image/upload/w_120,f_auto,c_scale/v1519156883/profile_ysrm5y.jpg class=avatar-img alt height=53 width=53 sizes=53px></a></div><div class=bd><address class=name itemprop=author itemscope itemtype=https://schema.org/Person><a href="/about-me/" itemprop=name>José M. Pérez</a></address><meta class=post-data itemprop=datePublished content=2010-06-21T14:33:44.000Z>June 21, 2010 <span style="margin:0 .5rem;display:inline-block">|</span> Reading Time: ~<time>1 mins</time></div></div><h1>Tracking action execution time in ASP.Net MVC</h1></header><p>Using filter attributes we can add features to our actions or controllers easily. In this case, I have implemented an action filter attribute that stores how much time has taken to execute an action.</p><a id=more></a><pre class=language-csharp><code class=language-csharp><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TrackTimeFilter</span> <span class="token punctuation">:</span> ActionFilterAttribute
+}</script><div class="media author"><div class=img><a href="/about-me/?ref=post-header"><img src=https://res.cloudinary.com/jmperez/image/upload/w_120,f_auto,c_scale/v1519156883/profile_ysrm5y.jpg class=avatar-img alt height=53 width=53 sizes=53px></a></div><div class=bd><address class=name itemprop=author itemscope itemtype=https://schema.org/Person><a href="/about-me/" itemprop=name>José M. Pérez</a></address><meta class=post-data itemprop=datePublished content=2010-06-21T23:33:44.000Z>June 21, 2010 <span style="margin:0 .5rem;display:inline-block">|</span> Reading Time: ~<time>1 mins</time></div></div><h1>Tracking action execution time in ASP.Net MVC</h1></header><p>Using filter attributes we can add features to our actions or controllers easily. In this case, I have implemented an action filter attribute that stores how much time has taken to execute an action.</p><a id=more></a><pre class=language-csharp><code class=language-csharp><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TrackTimeFilter</span> <span class="token punctuation">:</span> ActionFilterAttribute
 <span class="token punctuation">{</span>
   Stopwatch stopWatch<span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token keyword">void</span> <span class="token function">OnActionExecuting</span><span class="token punctuation">(</span>ActionExecutingContext filterContext<span class="token punctuation">)</span>
