@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://jmperezperez.com/"/>
-  <updated>2019-04-05T13:26:14.222Z</updated>
+  <updated>2019-04-05T16:47:14.845Z</updated>
   <id>https://jmperezperez.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://jmperezperez.com/building-spotify-new-web-player/"/>
     <id>https://jmperezperez.com/building-spotify-new-web-player/</id>
     <published>2019-03-25T13:00:00.000Z</published>
-    <updated>2019-04-05T13:26:14.222Z</updated>
+    <updated>2019-04-05T16:47:14.845Z</updated>
     
-    <content type="html"><![CDATA[<p>Spotify’s tech blog has just published my post <a href="https://labs.spotify.com/2019/03/25/building-spotifys-new-web-player/" target="_blank" rel="noopener">Building Spotify’s New Web Player</a>. I explain why we decided to start from scratch and write a brand new Spotify experience on the web, and how the team is thinking about the future of the project.</p><p>Replacing a working product with a new one is a though decision, and doing it from scratch instead of iteratively always raises red flags. However, sometimes it’s the best option in order to move forward.</p><p>Spotify’s web player has been my biggest challenge at Spotify. The most difficult one but the most rewarding.</p><p><a href="https://labs.spotify.com/2019/03/25/building-spotifys-new-web-player/" target="_blank" rel="noopener">Read article on Spotify’s tech blog</a>.</p><a id="more"></a>]]></content>
+    <content type="html"><![CDATA[<p>Spotify’s tech blog has just published my post <a href="https://labs.spotify.com/2019/03/25/building-spotifys-new-web-player/" target="_blank" rel="noopener">Building Spotify’s New Web Player</a>. I explain why we decided to start from scratch and write a brand new Spotify experience on the web, and how the team is thinking about the future of the project.</p><div style="position:relative;padding-bottom:75%;margin-bottom:1rem"><a href="https://labs.spotify.com/2019/03/25/building-spotifys-new-web-player/" target="_blank" rel="noopener"><img style="max-width:100%; border: 0;position:absolute;top:0;left:0" sizes="(max-width: 768px) 100vw, 684px" srcset="https://res.cloudinary.com/jmperez/image/upload/w_auto:100:400,f_auto/v1554482735/spotify-new-web-player_wynfik.jpg 400w, https://res.cloudinary.com/jmperez/image/upload/w_auto:100:800,f_auto/v1554482735/spotify-new-web-player_wynfik.jpg 800w, https://res.cloudinary.com/jmperez/image/upload/w_auto:100:1200,f_auto/v1554482735/spotify-new-web-player_wynfik.jpg 1200w, https://res.cloudinary.com/jmperez/image/upload/w_auto:100:1400,f_auto/v1554482735/spotify-new-web-player_wynfik.jpg 1400w" src="https://res.cloudinary.com/jmperez/image/upload/w_auto:100:684,f_auto/v1554482735/spotify-new-web-player_wynfik.jpg" alt></a></div><p>Replacing a working product with a new one is a though decision, and doing it from scratch instead of iteratively always raises red flags. However, sometimes it’s the best option in order to move forward.</p><p>Spotify’s web player has been my biggest challenge at Spotify. The most difficult one but the most rewarding.</p><p><a href="https://labs.spotify.com/2019/03/25/building-spotifys-new-web-player/" target="_blank" rel="noopener">Read article on Spotify’s tech blog</a>.</p><a id="more"></a>]]></content>
     
     <summary type="html">
     
