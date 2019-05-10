@@ -9,7 +9,7 @@
       "@type":"WebPage",
       "@id":"https://jmperezperez.com/google-images-sitemap-c-asp-net/"
   },
-  "datePublished": "2010-07-24T16:02:20.000Z",
+  "datePublished": "2010-07-24T07:02:20.000Z",
   "dateModified": "2019-03-19T08:12:57.796Z",
   
   "author": {
@@ -34,7 +34,7 @@
       }
       
   }
-}</script><div class="media author"><div class=img><a href="/about-me/?ref=post-header"><img src=https://res.cloudinary.com/jmperez/image/upload/w_120,f_auto,c_scale/v1519156883/profile_ysrm5y.jpg class=avatar-img alt height=53 width=53 sizes=53px></a></div><div class=bd><address class=name itemprop=author itemscope itemtype=https://schema.org/Person><a href="/about-me/" itemprop=name>José M. Pérez</a></address><meta class=post-data itemprop=datePublished content=2010-07-24T16:02:20.000Z>July 24, 2010 <span style="margin:0 .5rem;display:inline-block">|</span> Reading Time: ~<time>1 mins</time></div></div><h1>Generating google images sitemap with C#</h1></header><p>Today I have implemented an action in ASP.Net MVC that generates a sitemap containing the images of a website we are developing, just to check how this affects to the amount of images indexed in google images.</p><p>The XML structure, as well as the optional parameters, are defined on <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=178636" target=_blank rel=noopener>Adding image information to a Sitemap</a> on Google Webmaster central.</p><a id=more></a><p>The code I use is the following one:</p><pre class=language-csharp><code class=language-csharp>XNamespace ns <span class="token operator">=</span> <span class="token string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="token punctuation">;</span>
+}</script><div class="media author"><div class=img><a href="/about-me/?ref=post-header"><img src=https://res.cloudinary.com/jmperez/image/upload/w_120,f_auto,c_scale/v1519156883/profile_ysrm5y.jpg class=avatar-img alt height=53 width=53 sizes=53px></a></div><div class=bd><address class=name itemprop=author itemscope itemtype=https://schema.org/Person><a href="/about-me/" itemprop=name>José M. Pérez</a></address><meta class=post-data itemprop=datePublished content=2010-07-24T07:02:20.000Z>July 24, 2010 <span style="margin:0 .5rem;display:inline-block">|</span> Reading Time: ~<time>1 mins</time></div></div><h1>Generating google images sitemap with C#</h1></header><p>Today I have implemented an action in ASP.Net MVC that generates a sitemap containing the images of a website we are developing, just to check how this affects to the amount of images indexed in google images.</p><p>The XML structure, as well as the optional parameters, are defined on <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=178636" target=_blank rel=noopener>Adding image information to a Sitemap</a> on Google Webmaster central.</p><a id=more></a><p>The code I use is the following one:</p><pre class=language-csharp><code class=language-csharp>XNamespace ns <span class="token operator">=</span> <span class="token string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="token punctuation">;</span>
 XNamespace nsImage <span class="token operator">=</span> <span class="token string">"http://www.google.com/schemas/sitemap-image/1.1"</span><span class="token punctuation">;</span>
 XDocument xmlDoc <span class="token operator">=</span>
   <span class="token keyword">new</span> <span class="token class-name">XDocument</span><span class="token punctuation">(</span>
