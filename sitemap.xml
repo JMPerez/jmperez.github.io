@@ -226,14 +226,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/outline-focus-ring-a11y/</loc>
+    <loc>https://jmperezperez.com/2017-07-reading-list/</loc>
     
     <lastmod>2019-03-19T08:12:57.813Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/2017-07-reading-list/</loc>
+    <loc>https://jmperezperez.com/outline-focus-ring-a11y/</loc>
     
     <lastmod>2019-03-19T08:12:57.813Z</lastmod>
     
@@ -443,14 +443,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/animations-improve-ux/</loc>
+    <loc>https://jmperezperez.com/implementing-polymer-element/</loc>
     
     <lastmod>2019-03-19T08:12:57.806Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/implementing-polymer-element/</loc>
+    <loc>https://jmperezperez.com/animations-improve-ux/</loc>
     
     <lastmod>2019-03-19T08:12:57.806Z</lastmod>
     
@@ -520,7 +520,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/giving-android-development-a-try/</loc>
+    <loc>https://jmperezperez.com/spain-js-2013/</loc>
     
     <lastmod>2019-03-19T08:12:57.803Z</lastmod>
     
@@ -534,7 +534,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/spain-js-2013/</loc>
+    <loc>https://jmperezperez.com/javascript-karaoke-remove-voice/</loc>
     
     <lastmod>2019-03-19T08:12:57.803Z</lastmod>
     
@@ -548,7 +548,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/javascript-karaoke-remove-voice/</loc>
+    <loc>https://jmperezperez.com/giving-android-development-a-try/</loc>
     
     <lastmod>2019-03-19T08:12:57.803Z</lastmod>
     
@@ -604,13 +604,6 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/spotify-hack-week-2013/</loc>
-    
-    <lastmod>2019-03-19T08:12:57.801Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jmperezperez.com/mlocjs-conference-budapest/</loc>
     
     <lastmod>2019-03-19T08:12:57.801Z</lastmod>
@@ -619,6 +612,13 @@
   
   <url>
     <loc>https://jmperezperez.com/meteor-hackathon-stockholm/</loc>
+    
+    <lastmod>2019-03-19T08:12:57.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/spotify-hack-week-2013/</loc>
     
     <lastmod>2019-03-19T08:12:57.801Z</lastmod>
     
@@ -653,14 +653,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/boot-to-gecko-html5/</loc>
+    <loc>https://jmperezperez.com/webkit-only-mobile-js-libraries/</loc>
     
     <lastmod>2019-03-19T08:12:57.799Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/webkit-only-mobile-js-libraries/</loc>
+    <loc>https://jmperezperez.com/boot-to-gecko-html5/</loc>
     
     <lastmod>2019-03-19T08:12:57.799Z</lastmod>
     
@@ -674,13 +674,6 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/desktop-hybrid-apps-not-only-mobile/</loc>
-    
-    <lastmod>2019-03-19T08:12:57.799Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jmperezperez.com/facebook-ios-html5-native/</loc>
     
     <lastmod>2019-03-19T08:12:57.799Z</lastmod>
@@ -688,7 +681,21 @@
   </url>
   
   <url>
+    <loc>https://jmperezperez.com/desktop-hybrid-apps-not-only-mobile/</loc>
+    
+    <lastmod>2019-03-19T08:12:57.799Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jmperezperez.com/changing-job/</loc>
+    
+    <lastmod>2019-03-19T08:12:57.798Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/bigpipe-in-asp-net-mvc-using-razor/</loc>
     
     <lastmod>2019-03-19T08:12:57.798Z</lastmod>
     
@@ -709,20 +716,6 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/bigpipe-in-asp-net-mvc-using-razor/</loc>
-    
-    <lastmod>2019-03-19T08:12:57.798Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jmperezperez.com/ondemand-javascript-lazy-loading-stubs/</loc>
-    
-    <lastmod>2019-03-19T08:12:57.797Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jmperezperez.com/updates-on-bigpipe-using-asp-net-mvc/</loc>
     
     <lastmod>2019-03-19T08:12:57.797Z</lastmod>
@@ -738,6 +731,13 @@
   
   <url>
     <loc>https://jmperezperez.com/yahoo-tips-website-performance-flush-bottom/</loc>
+    
+    <lastmod>2019-03-19T08:12:57.797Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/ondemand-javascript-lazy-loading-stubs/</loc>
     
     <lastmod>2019-03-19T08:12:57.797Z</lastmod>
     
@@ -772,14 +772,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/personal-thoughts-on-web-development/</loc>
+    <loc>https://jmperezperez.com/tracking-action-execution-time-in-asp-net-mvc/</loc>
     
     <lastmod>2019-03-19T08:12:57.795Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/tracking-action-execution-time-in-asp-net-mvc/</loc>
+    <loc>https://jmperezperez.com/personal-thoughts-on-web-development/</loc>
     
     <lastmod>2019-03-19T08:12:57.795Z</lastmod>
     
@@ -793,14 +793,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/techniques-optimize-web-sites/</loc>
+    <loc>https://jmperezperez.com/google-maps-geolocation-directions-specific-destination/</loc>
     
     <lastmod>2019-03-19T08:12:57.795Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/google-maps-geolocation-directions-specific-destination/</loc>
+    <loc>https://jmperezperez.com/techniques-optimize-web-sites/</loc>
     
     <lastmod>2019-03-19T08:12:57.795Z</lastmod>
     
@@ -828,14 +828,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/making-more-responsive-websites-using-asp-net-mvc-response-flush/</loc>
+    <loc>https://jmperezperez.com/jpegoptim-optimize-jpg-page-speed/</loc>
     
     <lastmod>2019-03-19T08:12:57.794Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/jpegoptim-optimize-jpg-page-speed/</loc>
+    <loc>https://jmperezperez.com/making-more-responsive-websites-using-asp-net-mvc-response-flush/</loc>
     
     <lastmod>2019-03-19T08:12:57.794Z</lastmod>
     
