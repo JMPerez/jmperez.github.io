@@ -33,9 +33,9 @@
     </summary>
     
     
-      <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
-    
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+    
+      <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
     
       <category term="webp" scheme="https://jmperezperez.com/tags/webp/"/>
     
@@ -670,9 +670,9 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
-    
       <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+    
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
