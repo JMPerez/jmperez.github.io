@@ -5,7 +5,7 @@
   <link href="/tag/grunt/atom.xml" rel="self"/>
   
   <link href="https://jmperezperez.com/"/>
-  <updated>2019-03-19T08:12:57.805Z</updated>
+  <updated>2019-10-31T22:46:22.871Z</updated>
   <id>https://jmperezperez.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://jmperezperez.com/gulp-js/"/>
     <id>https://jmperezperez.com/gulp-js/</id>
     <published>2014-01-08T22:55:00.000Z</published>
-    <updated>2019-03-19T08:12:57.805Z</updated>
+    <updated>2019-10-31T22:46:22.871Z</updated>
     
     <content type="html"><![CDATA[<p>I like <a href="http://gruntjs.com/" target="_blank" rel="noopener">Grunt.js</a>. Since I started using it I have applied it to all my web projects. It has improved my workflow by providing a uniform way to perform operations such as combination of files, minification, optimization and testing, to name a few. And I already posted about it when I talked about <a href="/writing-testable-javascript-grunt-workflow">how to make Javascript more testable</a>.</p><p>Grunt made it a non-brainer thing to carry out tasks that were more cumbersome to setup before. More often than not I would not dare to clone a repo and give it a try, if I had to set up many dependencies. Now I feel relieved when I see it contains a Gruntfile.js file.</p><a id="more"></a><h3 id="Here-comes-Gulp"><a href="#Here-comes-Gulp" class="headerlink" title="Here comes Gulp"></a>Here comes Gulp</h3><p>Today I came across <a href="http://gulpjs.com/" target="_blank" rel="noopener">Gulp</a>. At first sight it is another Javascript task runner that looks more concise and less verbose. Its chainable commands are convenient for carrying out operations on <strong>streams</strong> of data:</p><pre class=" language-js"><code class="language-js">
 <span class="token keyword">var</span> gulp <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'gulp'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>

@@ -5,7 +5,7 @@
   <link href="/tag/karaoke/atom.xml" rel="self"/>
   
   <link href="https://jmperezperez.com/"/>
-  <updated>2019-03-19T08:12:57.803Z</updated>
+  <updated>2019-10-31T22:46:22.870Z</updated>
   <id>https://jmperezperez.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://jmperezperez.com/javascript-karaoke-remove-voice/"/>
     <id>https://jmperezperez.com/javascript-karaoke-remove-voice/</id>
     <published>2013-07-17T15:41:54.000Z</published>
-    <updated>2019-03-19T08:12:57.803Z</updated>
+    <updated>2019-10-31T22:46:22.870Z</updated>
     
     <content type="html"><![CDATA[<p>These days I have been playing with the Web Audio API in <a href="/karaoke/">a small pet project</a>. It consists on a web page where you can drag and drop an audio file and play it removing the vocals. Perfect for a basic karaoke! And it even works on mobile!</p><a id="more"></a><p>You can check out <a href="https://github.com/JMPerez/karaoke" target="_blank" rel="noopener">the code on Github</a>.</p><p>It is exciting to see how powerful it can be, making it super easy to manipulate sound client-side.</p>]]></content>
     

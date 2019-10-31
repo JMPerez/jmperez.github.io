@@ -5,7 +5,7 @@
   <link href="/tag/javascript/atom.xml" rel="self"/>
   
   <link href="https://jmperezperez.com/"/>
-  <updated>2019-03-19T08:12:57.803Z</updated>
+  <updated>2019-10-31T22:46:22.870Z</updated>
   <id>https://jmperezperez.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://jmperezperez.com/javascript-karaoke-remove-voice/"/>
     <id>https://jmperezperez.com/javascript-karaoke-remove-voice/</id>
     <published>2013-07-17T15:41:54.000Z</published>
-    <updated>2019-03-19T08:12:57.803Z</updated>
+    <updated>2019-10-31T22:46:22.870Z</updated>
     
     <content type="html"><![CDATA[<p>These days I have been playing with the Web Audio API in <a href="/karaoke/">a small pet project</a>. It consists on a web page where you can drag and drop an audio file and play it removing the vocals. Perfect for a basic karaoke! And it even works on mobile!</p><a id="more"></a><p>You can check out <a href="https://github.com/JMPerez/karaoke" target="_blank" rel="noopener">the code on Github</a>.</p><p>It is exciting to see how powerful it can be, making it super easy to manipulate sound client-side.</p>]]></content>
     
@@ -44,7 +44,7 @@
     <link href="https://jmperezperez.com/mlocjs-conference-budapest/"/>
     <id>https://jmperezperez.com/mlocjs-conference-budapest/</id>
     <published>2013-02-17T15:05:54.000Z</published>
-    <updated>2019-03-19T08:12:57.801Z</updated>
+    <updated>2019-10-31T22:46:22.868Z</updated>
     
     <content type="html"><![CDATA[<p>These days I have been attending the <a href="http://mloc-js.com/" target="_blank" rel="noopener">mloc.js conference</a> in Budapest. It was a nice experience with a great organisation and good speakers working around Javascript limitations (more about that below). <img src="/assets/images/posts/design-terminal-welcome-heroes-300x171.jpg" alt="Welcome our heroes! at Terminal Building, Budapest"></p><p><em>Welcome our heroes! at Terminal Building, Budapest</em></p><a id="more"></a><p>The mloc.js conference was quite focused on generating JS from compiled languages and programming paradigms for safer, faster, more productive development tools. Initially it also included multiplatform development using JS as a runtime environment.</p><p>Not much information about large scale applications on JS, and a lot about generating JS from compiled languages, often functional ones, to work-around the lack of static typing in JS. To name some of them: Scala, Haskell, F# and C#.</p><p>Lots of speakers were pointing out the limitation of Javascript in regards of typing, but instead of using what the language provides or extending it somehow, they encouraged developers to use a completely different language to generate Javascript. Then, it was needed to mock the interface of popular JS libraries so their code could still refer to these libraries and not break.</p><p>Even though I find this interesting, sometimes it became a bit too dense. I wondered many times the real application of such compilers, how they could help out when developing a large code base, and if it was really worth it trying to introduce them in a project. <a href="/assets/images/posts/nick-fisher-soundcloud.jpg"><img src="/assets/images/posts/nick-fisher-soundcloud-300x234.jpg" alt="Nick Fisher talking about the new design of Soundcloud"></a> <em>Nick Fisher talking about the new design of Soundcloud</em></p><p>I did like a lot talks around solving the so-called callback hell, improvements in Mozilla’s SpiderMonkey, information about Bacon.js, a new compiler for CoffeeScript, and insights on how the new Soundcloud site was implemented.</p><p>The conference also included some 4-minute long lightning talks, and I gave one of them about web development in Spotify (<a href="https://speakerdeck.com/jmperez/x-platform-web-dev-in-spotify" target="_blank" rel="noopener">slides here</a>).</p><p><a href="http://lanyrd.com/2013/mlocjs/" target="_blank" rel="noopener">On Lanyrd</a> you can find the whole list of talks and slides.</p>]]></content>
     
@@ -66,7 +66,7 @@
     <link href="https://jmperezperez.com/revisitando-nueva-web-senado/"/>
     <id>https://jmperezperez.com/revisitando-nueva-web-senado/</id>
     <published>2012-12-03T20:20:16.000Z</published>
-    <updated>2019-03-19T08:12:57.800Z</updated>
+    <updated>2019-10-31T22:46:22.868Z</updated>
     
     <content type="html"><![CDATA[<p>Hace unos días hacía un <a href="/estudiando-el-rediseno-de-la-web-del-senado-de-espana/">análisis del rediseño de la web del Senado</a>, justo tras su lanzamiento, desde el punto de vista de rendimiento web y mejores prácticas a la hora de desarrollar sitios web. La nueva web del Senado sufría múltiples problemas poco más que inaceptables para un proyecto tan reciente y con tal presupuesto.</p><a id="more"></a><p>Pero al igual que destacaba dichos problemas, unas semanas después debo mencionar que varios de ellos han sido resueltos. Aunque aún quedan algunos por resolver, es de destacar que hayan seguido trabajando en el sitio. <img src="/assets/images/posts/web-senado.jpg" alt="Web del Senado de España"></p><h2 id="Mejoras"><a href="#Mejoras" class="headerlink" title="Mejoras"></a>Mejoras</h2><h3 id="Senado-es-ya-funciona-sin-www"><a href="#Senado-es-ya-funciona-sin-www" class="headerlink" title="Senado.es ya funciona sin www"></a>Senado.es ya funciona sin www</h3><p>Ahora, la URL <a href="http://senado.es" target="_blank" rel="noopener">senado.es</a> redirecciona a <a href="http://www.senado.es" target="_blank" rel="noopener">www.senado.es</a> (<a href="http://www.webpagetest.org/result/121203_ZZ_4QD/1/details/" target="_blank" rel="noopener">fuente</a>)</p><h3 id="Indexable-por-robots"><a href="#Indexable-por-robots" class="headerlink" title="Indexable por robots"></a>Indexable por robots</h3><p>Su <a href="http://www.senado.es/robots.txt" target="_blank" rel="noopener">robots.txt</a> ha cambiado y ahora permite a los buscadores indexar el contenido del sitio.</p><h3 id="Compresi-243-n-Gzip"><a href="#Compresi-243-n-Gzip" class="headerlink" title="Compresi&#243;n Gzip"></a>Compresi&#243;n Gzip</h3><p>Ahora los recursos se sirven con compresión GZIP habilitada (<a href="http://gtmetrix.com/compare/BN8ZgvCB/3gwi5Qp4" target="_blank" rel="noopener">fuente</a>). Entre otras mejoras, la página principal <em>pesa</em> ahora menos de la mitad, y han mejorado considerablemente el índica PageSpeed y YSlow (<a href="http://gtmetrix.com/reports/www.senado.es/eS68ECWL" target="_blank" rel="noopener">fuente</a>).</p><h3 id="Errores-404"><a href="#Errores-404" class="headerlink" title="Errores 404"></a>Errores 404</h3><p>Ahora en la página principal, ya sólo hay 1 request que da error 404 (<a href="http://www.webpagetest.org/result/121203_ZZ_4QD/1/details/" target="_blank" rel="noopener">fuente</a>).</p><h2 id="Todav-237-a-hay-algunos-problemas-que-solucionar"><a href="#Todav-237-a-hay-algunos-problemas-que-solucionar" class="headerlink" title="Todav&#237;a hay algunos problemas que solucionar"></a>Todav&#237;a hay algunos problemas que solucionar</h2><p>Pese a todo, aún quedan mejoras por hacer, como la minificación de ficheros, optimización de imágenes, tratar de reducir el número de peticiones y corregir el Mime Type devuelto por el servidor.</p><p>Además, con la modificación del fichero <a href="http://www.senado.es/robots.txt" target="_blank" rel="noopener">robots.txt</a> existen detalles dignos de mención. El fichero actual tiene este contenido:</p><pre><code>User-agent: *
 Disallow: /cgi-bin/
@@ -97,9 +97,9 @@ Visit-time: 0200-0600
     
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
-      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
-    
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+    
+      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
   </entry>
   
@@ -108,7 +108,7 @@ Visit-time: 0200-0600
     <link href="https://jmperezperez.com/estudiando-el-rediseno-de-la-web-del-senado-de-espana/"/>
     <id>https://jmperezperez.com/estudiando-el-rediseno-de-la-web-del-senado-de-espana/</id>
     <published>2012-11-12T17:17:35.000Z</published>
-    <updated>2019-03-19T08:12:57.800Z</updated>
+    <updated>2019-10-31T22:46:22.867Z</updated>
     
     <content type="html"><![CDATA[<p>Echa un vistazo al <a href="/revisitando-nueva-web-senado">análisis más reciente que he hecho de la web del Senado</a>, donde hablo sobre algunos cambios que han llevado a cabo desde que publicó el nuevo sitio. <a href="/assets/images/posts/senado-es-portada.jpg"><img src="/assets/images/posts/senado-es-portada-300x175.jpg" alt="Portada de Senado.es"></a></p><a id="more"></a><p>Hoy se ha presentado el rediseño de la web del Senado de España. Sin entrar a valorar su coste o la necesidad, quería analizarla desde el punto de vista de implementación frontend.</p><p>Particularmente, me gustan los análisis que hacen webs como <a href="http://zoompf.com/blog" target="_blank" rel="noopener">zoompf</a> sobre distintos sitios web, presentando los problemas encontrados y ofreciendo soluciones.</p><p>Aquí hablaré sobre algunos problemas de ámbito general y otros específicos sobre rendimiento web.</p><h2 id="Problemas-generales"><a href="#Problemas-generales" class="headerlink" title="Problemas generales"></a>Problemas generales</h2><p>Hay algunos problemas relacionados con XSS (que parece que ya se ha resuelto), indexado y navegación.</p><h3 id="senado-es-no-funciona-sin-www"><a href="#senado-es-no-funciona-sin-www" class="headerlink" title="senado.es no funciona sin www"></a>senado.es no funciona sin www</h3><p><a href="/assets/images/posts/www-senado.png"><img src="/assets/images/posts/www-senado-300x153.png" alt="Conversación en Twitter sobre redirección de la web del Senado"></a></p><p>Al igual que en la anterior versión de la web, la dirección <a href="http://senado.es" target="_blank" rel="noopener">senado.es</a> no funciona. Es necesario acceder a <a href="http://www.senado.es" target="_blank" rel="noopener">www.senado.es</a> para poder ver el contenido. Aunque se puede solucionar fácilmente, es un pena que se les haya pasado por alto.</p><p>Pese <a href="https://twitter.com/jmperezperez/status/267910552288911360" target="_blank" rel="noopener">haber sido notificados</a>, 2 días después del lanzamiento, el problema persistía.</p><h3 id="No-indexable"><a href="#No-indexable" class="headerlink" title="No indexable"></a>No indexable</h3><p>Por alguna razón, han decidido que su <a href="http://www.senado.es/robots.txt" target="_blank" rel="noopener">robots.txt</a> indique a los buscadores que su contenido no se indexe (<a href="https://twitter.com/polpitart/status/267930153592709120" target="_blank" rel="noopener">fuente</a>).</p><pre><code>#No permitimos acceso a todos los robots de indexación
 User-agent: Oracle Secure Enterprise Search
@@ -152,9 +152,9 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
-      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
-    
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+    
+      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
   </entry>
   
@@ -163,7 +163,7 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     <link href="https://jmperezperez.com/prevent-iphone-navigation-bar-ajax-link-click/"/>
     <id>https://jmperezperez.com/prevent-iphone-navigation-bar-ajax-link-click/</id>
     <published>2011-06-11T16:28:08.000Z</published>
-    <updated>2019-03-19T08:12:57.798Z</updated>
+    <updated>2019-10-31T22:46:22.865Z</updated>
     
     <content type="html"><![CDATA[<p>You can find a <a href="/demos/iphone-links"><strong>demo</strong> showing the default behaviour and the one using Facebook’s technique</a>. Use an iPhone or iPod Touch to see the effect.</p><p>When clicking a link for ajax navigation on iPhone and iPod Touch, the navigation bar slides down and up for every link, even when they are enhanced to support ajax navigation and its click event is captured and we load content using XMLHttpRequest instead.</p><a id="more"></a><p>This is a bit annoying and some developers have already tried to solve it. See these links:</p><ul><li><p><a href="http://stackoverflow.com/questions/1788605/can-iphone-safari-be-prevented-from-showing-the-navigation-bar-during-an-ajax-cal" target="_blank" rel="noopener">Can iPhone Safari be prevented from showing the navigation bar during an AJAX call?</a></p></li><li><p><a href="https://forum.jquery.com/topic/ios-urlbar-shows-then-hides-when-clicking-internal-link" target="_blank" rel="noopener">iOS urlbar shows then hides when clicking internal link</a></p></li><li><p><a href="https://forum.jquery.com/topic/stopping-the-url-bar-from-dropping-down-i-discovered-a-workaround" target="_blank" rel="noopener">Stopping the url bar from dropping down - I discovered a workaround</a></p></li><li><p><a href="http://forum.jquery.com/topic/how-do-i-stop-mobile-safari-from-dropping-down-its-url-loading-bar-whenever-i-submit-an-ajax-request" target="_blank" rel="noopener">How do i stop mobile safari from dropping down its URL/Loading bar whenever i submit an ajax request?</a></p></li></ul><p>The fact of having an anchor with an href attribute is enough for Safari Mobile to show the bar unless the address is preceded by the hash sign. It is not the fact of changing the URL, because if you preventDefault() the click on the link and avoid the navigation, the bar is shown anyway.</p><p>I realized that Facebook, among others sites with iPhone adapted versions (see jQtouch, Sencha Touch or Twitter), didn’t show that bar dropping from the top of the screen.</p><p>Looking at Facebook’s mobile site code, I found out that they made a workaround. They attach to the touchend event, which is fired before the click event fires, and then replace the value of the href attribute:</p><pre class=" language-js"><code class="language-js">JX<span class="token punctuation">.</span><span class="token function">install</span><span class="token punctuation">(</span><span class="token string">"MLinkHack"</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>initialize<span class="token punctuation">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>JX<span class="token punctuation">.</span>MTouchClick<span class="token punctuation">.</span><span class="token function">hasTouchEvents</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -265,13 +265,13 @@ document<span class="token punctuation">.</span><span class="token function">add
     
       <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
-      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
+    
+      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
     
   </entry>
   
@@ -280,7 +280,7 @@ document<span class="token punctuation">.</span><span class="token function">add
     <link href="https://jmperezperez.com/facebook-frontend-javascript/"/>
     <id>https://jmperezperez.com/facebook-frontend-javascript/</id>
     <published>2011-01-30T16:29:22.000Z</published>
-    <updated>2019-05-12T05:23:37.905Z</updated>
+    <updated>2019-10-31T22:46:22.865Z</updated>
     
     <content type="html"><![CDATA[<p>Yesterday I watched this <a href="http://www.facebook.com/video/video.php?v=596368660334" target="_blank" rel="noopener">Front End Tech Talk by Facebook</a>. I found it very interesting because they explained how they faced the problem of having a lot of javascript code and how they managed to reduce it. I think this can be applied not only to a website of the size of Facebook’s, but also any other project where we could refactor existing code.</p><blockquote><p>We had about 1MB of JS on the homepage</p></blockquote><p>They realized they had a problem with so much JS code and they worked at different levels to shrink it. <a href="/assets/images/posts/facebook-1mb-javascript.jpg"><img src="/assets/images/posts/facebook-1mb-javascript-1024x574.jpg" alt="We had about of 1MB of JS on the homepage"></a></p><a id="more"></a><h2 id="Haste"><a href="#Haste" class="headerlink" title="Haste"></a>Haste</h2><p>Haste is a package and dependency manager for CSS and JS files. In each file they specify the name of the package provided by the file and those files that are required to run the file. Thus, Haste can manage what files are needed to run a certain script.</p><p>This helps managing how files are requested and even which sets of files should be merged. This system was further explained by <a href="https://www.linkedin.com/in/davidwei79/" target="_blank" rel="noopener">Xiaoliang “David” Wei</a> at his talk about <a href="http://velocity.oreilly.com.cn/2010/ppts/VelocityChina2010Dec7StaticResource.pdf" target="_blank" rel="noopener"><em>Static resource management &amp; optimization</em></a> that took place on December 2010 at Velocity China.</p><h2 id="Bootloader"><a href="#Bootloader" class="headerlink" title="Bootloader"></a>Bootloader</h2><p>Bootloader consists of a JS library that helps loading and unloading static resources on demand. Not too far of RequireJS or LabJS. It uses dynamic script injection and executes a callback function once the resource is loaded.</p><p>The good point is that you can even suggest static resources that are not immediately needed but could be prefetched at background.</p><h2 id="Primer"><a href="#Primer" class="headerlink" title="Primer"></a>Primer</h2><p>Makinde Adeagbo <a href="http://jsconf.blip.tv/file/3839676/" target="_blank" rel="noopener">already talked about Primer at JSConf 2010</a> (<a href="http://www.slideshare.net/makinde/javascript-primer" target="_blank" rel="noopener">slides</a>).</p><p>A waterfall analysis showed that CSS resources where requested quite at the bottom and a lot of javascript on the head. Moving Javascript code to the bottom showed that the user interface would freeze while downloading/parsing/executing this code and that would provide a bad user experience. In some way, this is quite similar to what Yahoo! also found out, and I explained on my <em><a href="/yahoo-tips-website-performance-flush-bottom/">The not so good performance tips</a></em> post.</p><p>They decided to rewrite their JS code so that they could load a small file at the top that would provide the common functionality needed (about 80% of the interactions). And they moved Javascript client code to PHP code on the server. Instead of calling to a function like this one: <a href="/assets/images/posts/prev-dialog-code.jpg"><img src="/assets/images/posts/prev-dialog-code-1024x574.jpg" alt="Before Primer"></a> <em>Javascript code to build a dialog</em></p><p>they rewrote dialogs as anchors with a rel=”dialog” attribute: <a href="/assets/images/posts/after-dialog-code.jpg"><img src="/assets/images/posts/after-dialog-code-1024x574.jpg" alt="Dialog link using Primer"></a> <em>Simplified code to mark a link as a dialog</em></p><p>Basically they embraced progressive enhancement. This dialog links would be ajaxified later using a common Javascript code: <a href="/assets/images/posts/after-dialog-code-common.jpg"><img src="/assets/images/posts/after-dialog-code-common-1024x573.jpg" alt="Adding dialog behavior using Javascript"></a> <em>Adding a listener to manage click events on links marked as dialogs</em></p><p>And instead of letting Javascript set the title, content and the rest of dialog properties, it is the server the one that serves the dialog formatted as needed. <a href="/assets/images/posts/dialog-server-code.jpg"><img src="/assets/images/posts/dialog-server-code-1024x574.jpg" alt="PHP code to generate a dialog"></a> <em>PHP chainable code to create a dialog and set different properties</em></p><p>It is like converting a jQuery widget plugin into an ajax call and let the server generate the widget content.</p><p>They used this same approach to replace chunks of similar Javascript code. In async calls that retrieved html to replace existing markup, they are now generating javascript code (using PHP) on the server side and executing it in the async response. And if the url that should be requested when clicking an ajaxified link is a different one, they specify it using a custom <code>ajaxify</code> attribute. They also use this <code>ajaxify</code> attribute to specify that a form should be ajaxified.</p><p>Like Makindo says,</p><blockquote><p>if you are writing a site with tons and tons of Javascript it is very easy to forget about actual forms</p></blockquote><p>All this common interactions are shown in the comments form: <a href="/assets/images/posts/application-comment-form.jpg"><img src="/assets/images/posts/application-comment-form-1024x573.jpg" alt="Facebook&#39;s comment form"></a> <em>An example of common interactions that in their comment form</em></p><p>The top red arrow indicates that Comment is a label, so clicking on it focuses the comment textarea.</p><p>Some sample Javascript code is available on <a href="https://gist.github.com/376039" target="_blank" rel="noopener">https://gist.github.com/376039</a>.</p><p>They managed to not only reduce Javascript size, but loading CSS on the top and being able to load Javascript at the bottom in an async mode.</p><p>This talk shows that sometimes it is necessary to return to the basic elements and build interactions from there, trying to find common functionality to reduce the code needed, and embracing progressive enhancement as a way to achieve it.</p>]]></content>
     
@@ -291,9 +291,9 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="bootloader" scheme="https://jmperezperez.com/tags/bootloader/"/>
     
@@ -310,7 +310,7 @@ document<span class="token punctuation">.</span><span class="token function">add
     <link href="https://jmperezperez.com/ondemand-javascript-lazy-loading-stubs/"/>
     <id>https://jmperezperez.com/ondemand-javascript-lazy-loading-stubs/</id>
     <published>2010-11-13T15:14:34.000Z</published>
-    <updated>2019-03-19T08:12:57.797Z</updated>
+    <updated>2019-10-31T22:46:22.864Z</updated>
     
     <content type="html"><![CDATA[<p>Loading on-demand code can boost website performance in the sense that the browser does not need to request and execute Javascript code that is not needed. Depending on the script, a different approach can be taken to lazy load it.</p><a id="more"></a><h2 id="Progressive-enhancement-Javascript"><a href="#Progressive-enhancement-Javascript" class="headerlink" title="Progressive enhancement Javascript"></a>Progressive enhancement Javascript</h2><p>This is by far the best scenario. Javascript is used to improve user experience but the web page can work without Javascript (in example, browsers with Javascript disabled). In this case, script loading can be delayed to the very moment it is needed or it can be loaded after some timeout.</p><p>An example would be a form used to post a comment. This form could be ajaxify using a script that is requested when the textarea is focused. This way, this script would just be downloaded when potentially needed. Another example would be an input search that is improved using autocompletion once it is focused.</p><h2 id="Using-mocks-stubs-for-Javascript-only-functionality"><a href="#Using-mocks-stubs-for-Javascript-only-functionality" class="headerlink" title="Using mocks/stubs for Javascript-only functionality"></a>Using mocks/stubs for Javascript-only functionality</h2><p>Some times Javascript is used to allow functionality that cannot implemented other way. In this case, a mockup approach can be taken.</p><p>Mockup Javascript only defines the signatures of the functions and as little functionality as possible. We can use mocks to load the “real” Javascript and avoid calls to non-declared functions. This is similar to how <a href="http://www.stevesouders.com/blog/2009/09/08/doloto-javascript-download-optimizer/" target="_blank" rel="noopener">Microsoft Doloto</a> works. Stub functions can make as little as just preventing undefined symbols, or as much as loading real script and re-execute the javascript call so that the real script (that has just overridden the stub function) executes. Steve Souders explains this technique in his <a href="http://books.google.es/books?id=E7p-07kNfXYC&amp;lpg=PA24&amp;ots=ULjpQKecMk&amp;dq=souders%20doloto&amp;pg=PA24#v=onepage&amp;q&amp;f=false" target="_blank" rel="noopener"><em>Even faster web sites</em> book</a>.</p><p>We would have one file to functions declarations (mockup) and another file that will override mockup:</p><p><strong>functions_mock.js</strong></p><pre class=" language-js"><code class="language-js"><span class="token keyword">function</span> <span class="token function">loadJs</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> cb<span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">var</span> script <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'script'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -356,11 +356,11 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
-    
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="lazy loading" scheme="https://jmperezperez.com/tags/lazy-loading/"/>
+    
+      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
       <category term="stub" scheme="https://jmperezperez.com/tags/stub/"/>
     

@@ -5,7 +5,7 @@
   <link href="/tag/sitemap/atom.xml" rel="self"/>
   
   <link href="https://jmperezperez.com/"/>
-  <updated>2019-03-19T08:12:57.796Z</updated>
+  <updated>2019-10-31T22:46:22.863Z</updated>
   <id>https://jmperezperez.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://jmperezperez.com/google-images-sitemap-c-asp-net/"/>
     <id>https://jmperezperez.com/google-images-sitemap-c-asp-net/</id>
     <published>2010-07-24T07:02:20.000Z</published>
-    <updated>2019-03-19T08:12:57.796Z</updated>
+    <updated>2019-10-31T22:46:22.863Z</updated>
     
     <content type="html"><![CDATA[<p>Today I have implemented an action in ASP.Net MVC that generates a sitemap containing the images of a website we are developing, just to check how this affects to the amount of images indexed in google images.</p><p>The XML structure, as well as the optional parameters, are defined on <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=178636" target="_blank" rel="noopener">Adding image information to a Sitemap</a> on Google Webmaster central.</p><a id="more"></a><p>The code I use is the following one:</p><pre class=" language-csharp"><code class="language-csharp">XNamespace ns <span class="token operator">=</span> <span class="token string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="token punctuation">;</span>
 XNamespace nsImage <span class="token operator">=</span> <span class="token string">"http://www.google.com/schemas/sitemap-image/1.1"</span><span class="token punctuation">;</span>

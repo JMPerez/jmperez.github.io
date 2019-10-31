@@ -5,7 +5,7 @@
   <link href="/tag/amd/atom.xml" rel="self"/>
   
   <link href="https://jmperezperez.com/"/>
-  <updated>2019-03-19T08:12:57.804Z</updated>
+  <updated>2019-10-31T22:46:22.871Z</updated>
   <id>https://jmperezperez.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://jmperezperez.com/sync-subs-project/"/>
     <id>https://jmperezperez.com/sync-subs-project/</id>
     <published>2013-11-10T19:06:33.000Z</published>
-    <updated>2019-03-19T08:12:57.804Z</updated>
+    <updated>2019-10-31T22:46:22.871Z</updated>
     
     <content type="html"><![CDATA[<p>I have been working recently on <a href="/sync-subs/">Sync Subs</a>. It is a website that allows you to synchronize a file with subtitles (in SRT format) applying a time offset: <a href="/sync-subs/"><img src="/assets/images/posts/sync-subs.png" alt="Sync Subs - A Subtitles Synchronizer web app"></a></p><p>There are lots of websites doing this by letting a user upload a file and then applying the transformation server-side. But with the HTML5 File API you can do this client-side. Thus, you can read the contents of a file, process it and let the user download a file that has been dynamically generated using Javascript in the browser.</p><a id="more"></a><p>I have also been experiencing with Javascript modules written in an AMD style, unit testing, and integration of external services such as <a href="https://travis-ci.org/JMPerez/sync-subs" target="_blank" rel="noopener">Travis</a> (for continuous integration) and <a href="https://coveralls.io/r/JMPerez/sync-subs" target="_blank" rel="noopener">Coveralls</a> (for code coverage).</p><p>The code is on <a href="https://github.com/JMPerez/sync-subs" target="_blank" rel="noopener">Github</a> for you to play around with it.</p>]]></content>
     
