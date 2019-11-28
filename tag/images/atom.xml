@@ -101,9 +101,9 @@
     
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
-      <category term="webp" scheme="https://jmperezperez.com/tags/webp/"/>
-    
       <category term="ux" scheme="https://jmperezperez.com/tags/ux/"/>
+    
+      <category term="webp" scheme="https://jmperezperez.com/tags/webp/"/>
     
   </entry>
   
@@ -165,9 +165,9 @@
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
-    
       <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
+    
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
       <category term="responsive" scheme="https://jmperezperez.com/tags/responsive/"/>
     
@@ -205,11 +205,11 @@ optimize
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
-    
       <category term="google page speed" scheme="https://jmperezperez.com/tags/google-page-speed/"/>
     
       <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
+    
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
   </entry>
   
