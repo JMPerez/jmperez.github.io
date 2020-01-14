@@ -53,9 +53,9 @@
     </summary>
     
     
-      <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
-    
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+    
+      <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
     
       <category term="ux" scheme="https://jmperezperez.com/tags/ux/"/>
     
@@ -101,9 +101,9 @@
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="html5" scheme="https://jmperezperez.com/tags/html5/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="hybrid apps" scheme="https://jmperezperez.com/tags/hybrid-apps/"/>
     
@@ -214,15 +214,15 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
+      <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
+    
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
-      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
-    
-      <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
-    
       <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
+    
+      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
     
   </entry>
   
@@ -242,15 +242,15 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="bootloader" scheme="https://jmperezperez.com/tags/bootloader/"/>
-    
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+    
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+    
+      <category term="bootloader" scheme="https://jmperezperez.com/tags/bootloader/"/>
     
       <category term="frontend" scheme="https://jmperezperez.com/tags/frontend/"/>
     
       <category term="haste" scheme="https://jmperezperez.com/tags/haste/"/>
-    
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="primer" scheme="https://jmperezperez.com/tags/primer/"/>
     
@@ -274,9 +274,9 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
@@ -503,11 +503,11 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="asp net mvc" scheme="https://jmperezperez.com/tags/asp-net-mvc/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
   </entry>
   
@@ -666,11 +666,11 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="asp net mvc" scheme="https://jmperezperez.com/tags/asp-net-mvc/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
   </entry>
   
@@ -690,13 +690,13 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
+      <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
-      <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
