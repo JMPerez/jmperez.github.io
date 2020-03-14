@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jmperezperez.com/solutions-engineer-facebook/</loc>
+    <loc>https://jmperezperez.com/assess-performance-impact/</loc>
     
-    <lastmod>2020-03-14T12:22:48.922Z</lastmod>
+    <lastmod>2020-03-14T12:25:35.540Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/assess-performance-impact/</loc>
+    <loc>https://jmperezperez.com/solutions-engineer-facebook/</loc>
     
-    <lastmod>2020-03-14T12:22:03.899Z</lastmod>
+    <lastmod>2020-03-14T12:25:10.113Z</lastmod>
     
   </url>
   
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/my-2017/</loc>
+    <loc>https://jmperezperez.com/choosing-platform-blogging/</loc>
     
     <lastmod>2019-10-31T22:46:22.884Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/choosing-platform-blogging/</loc>
+    <loc>https://jmperezperez.com/my-2017/</loc>
     
     <lastmod>2019-10-31T22:46:22.884Z</lastmod>
     
@@ -240,14 +240,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/paint-timing-api/</loc>
+    <loc>https://jmperezperez.com/jsdayes-madrid-2017/</loc>
     
     <lastmod>2019-10-31T22:46:22.878Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/jsdayes-madrid-2017/</loc>
+    <loc>https://jmperezperez.com/paint-timing-api/</loc>
     
     <lastmod>2019-10-31T22:46:22.878Z</lastmod>
     
@@ -275,14 +275,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/my-setup-for-this-blog/</loc>
+    <loc>https://jmperezperez.com/more-progressive-image-loading/</loc>
     
     <lastmod>2019-10-31T22:46:22.877Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/more-progressive-image-loading/</loc>
+    <loc>https://jmperezperez.com/my-setup-for-this-blog/</loc>
     
     <lastmod>2019-10-31T22:46:22.877Z</lastmod>
     
@@ -331,14 +331,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/duotone-using-fecolormatrix/</loc>
+    <loc>https://jmperezperez.com/optimising-svgs/</loc>
     
     <lastmod>2019-10-31T22:46:22.875Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/optimising-svgs/</loc>
+    <loc>https://jmperezperez.com/duotone-using-fecolormatrix/</loc>
     
     <lastmod>2019-10-31T22:46:22.875Z</lastmod>
     
@@ -401,14 +401,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/ios-ads-blockers/</loc>
+    <loc>https://jmperezperez.com/use-es6-today/</loc>
     
     <lastmod>2019-10-31T22:46:22.873Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/use-es6-today/</loc>
+    <loc>https://jmperezperez.com/ios-ads-blockers/</loc>
     
     <lastmod>2019-10-31T22:46:22.873Z</lastmod>
     
@@ -436,20 +436,6 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/animations-improve-ux/</loc>
-    
-    <lastmod>2019-10-31T22:46:22.872Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jmperezperez.com/communicating-widgets-with-popups/</loc>
-    
-    <lastmod>2019-10-31T22:46:22.872Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jmperezperez.com/stockholm-meetups-startups-web-development/</loc>
     
     <lastmod>2019-10-31T22:46:22.872Z</lastmod>
@@ -457,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/bpm-detection-javascript/</loc>
+    <loc>https://jmperezperez.com/animations-improve-ux/</loc>
     
     <lastmod>2019-10-31T22:46:22.872Z</lastmod>
     
@@ -471,9 +457,16 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/migrating-wordpress-jekyll-github-pages/</loc>
+    <loc>https://jmperezperez.com/bpm-detection-javascript/</loc>
     
-    <lastmod>2019-10-31T22:46:22.871Z</lastmod>
+    <lastmod>2019-10-31T22:46:22.872Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/communicating-widgets-with-popups/</loc>
+    
+    <lastmod>2019-10-31T22:46:22.872Z</lastmod>
     
   </url>
   
@@ -486,6 +479,13 @@
   
   <url>
     <loc>https://jmperezperez.com/spotify-hack-week-2014/</loc>
+    
+    <lastmod>2019-10-31T22:46:22.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/migrating-wordpress-jekyll-github-pages/</loc>
     
     <lastmod>2019-10-31T22:46:22.871Z</lastmod>
     
@@ -520,13 +520,6 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/spain-js-2013/</loc>
-    
-    <lastmod>2019-10-31T22:46:22.870Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jmperezperez.com/giving-android-development-a-try/</loc>
     
     <lastmod>2019-10-31T22:46:22.870Z</lastmod>
@@ -534,14 +527,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/javascript-karaoke-remove-voice/</loc>
-    
-    <lastmod>2019-10-31T22:46:22.870Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jmperezperez.com/developing-spotify-apps/</loc>
+    <loc>https://jmperezperez.com/spain-js-2013/</loc>
     
     <lastmod>2019-10-31T22:46:22.870Z</lastmod>
     
@@ -562,7 +548,28 @@
   </url>
   
   <url>
+    <loc>https://jmperezperez.com/javascript-karaoke-remove-voice/</loc>
+    
+    <lastmod>2019-10-31T22:46:22.870Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/developing-spotify-apps/</loc>
+    
+    <lastmod>2019-10-31T22:46:22.870Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://jmperezperez.com/meteor-hackathon-stockholm/</loc>
+    
+    <lastmod>2019-10-31T22:46:22.869Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/mobile-proxy-browsers-back/</loc>
     
     <lastmod>2019-10-31T22:46:22.869Z</lastmod>
     
@@ -577,13 +584,6 @@
   
   <url>
     <loc>https://jmperezperez.com/facebook-news-feed-redesign/</loc>
-    
-    <lastmod>2019-10-31T22:46:22.869Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://jmperezperez.com/mobile-proxy-browsers-back/</loc>
     
     <lastmod>2019-10-31T22:46:22.869Z</lastmod>
     
@@ -611,7 +611,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/spotify-hack-week-2013/</loc>
+    <loc>https://jmperezperez.com/music-hack-day-stockholm-2013/</loc>
     
     <lastmod>2019-10-31T22:46:22.868Z</lastmod>
     
@@ -625,7 +625,7 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/music-hack-day-stockholm-2013/</loc>
+    <loc>https://jmperezperez.com/como-hemos-cambiado-antiguo-proyecto-web/</loc>
     
     <lastmod>2019-10-31T22:46:22.868Z</lastmod>
     
@@ -639,21 +639,21 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/como-hemos-cambiado-antiguo-proyecto-web/</loc>
+    <loc>https://jmperezperez.com/spotify-hack-week-2013/</loc>
     
     <lastmod>2019-10-31T22:46:22.868Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/boot-to-gecko-html5/</loc>
+    <loc>https://jmperezperez.com/developing-mobile-webapp-first/</loc>
     
     <lastmod>2019-10-31T22:46:22.867Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/developing-mobile-webapp-first/</loc>
+    <loc>https://jmperezperez.com/boot-to-gecko-html5/</loc>
     
     <lastmod>2019-10-31T22:46:22.867Z</lastmod>
     
@@ -793,13 +793,6 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/techniques-optimize-web-sites/</loc>
-    
-    <lastmod>2019-10-31T22:46:22.863Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://jmperezperez.com/progressively-using-html5-features/</loc>
     
     <lastmod>2019-10-31T22:46:22.863Z</lastmod>
@@ -814,14 +807,21 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/google-images-sitemap-c-asp-net/</loc>
+    <loc>https://jmperezperez.com/tutorial-how-to-implement-bigpipe-using-asp-net-mvc-part-1/</loc>
     
     <lastmod>2019-10-31T22:46:22.863Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/tutorial-how-to-implement-bigpipe-using-asp-net-mvc-part-1/</loc>
+    <loc>https://jmperezperez.com/techniques-optimize-web-sites/</loc>
+    
+    <lastmod>2019-10-31T22:46:22.863Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://jmperezperez.com/google-images-sitemap-c-asp-net/</loc>
     
     <lastmod>2019-10-31T22:46:22.863Z</lastmod>
     
@@ -842,14 +842,14 @@
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/jpegoptim-optimize-jpg-page-speed/</loc>
+    <loc>https://jmperezperez.com/google-make-web-faster/</loc>
     
     <lastmod>2019-10-31T22:46:22.862Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://jmperezperez.com/google-make-web-faster/</loc>
+    <loc>https://jmperezperez.com/jpegoptim-optimize-jpg-page-speed/</loc>
     
     <lastmod>2019-10-31T22:46:22.862Z</lastmod>
     
