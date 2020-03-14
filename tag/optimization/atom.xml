@@ -55,9 +55,9 @@
     </summary>
     
     
-      <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
-    
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
+    
+      <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
     
       <category term="responsive" scheme="https://jmperezperez.com/tags/responsive/"/>
     
@@ -178,13 +178,13 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
-      <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
-    
-      <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
-    
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
+    
+      <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+    
+      <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
   </entry>
   
@@ -240,11 +240,11 @@ optimize
     </summary>
     
     
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
+    
       <category term="google page speed" scheme="https://jmperezperez.com/tags/google-page-speed/"/>
     
       <category term="images" scheme="https://jmperezperez.com/tags/images/"/>
-    
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
   </entry>
   
@@ -264,9 +264,9 @@ optimize
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
-    
       <category term="google" scheme="https://jmperezperez.com/tags/google/"/>
+    
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
   </entry>
   
