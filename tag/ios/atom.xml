@@ -31,9 +31,9 @@
     </summary>
     
     
-      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
-    
       <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
+    
+      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
     
       <category term="polling" scheme="https://jmperezperez.com/tags/polling/"/>
     
@@ -146,15 +146,15 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+      <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
     
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
-      <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
     
-      <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
+      <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
     
   </entry>
   
