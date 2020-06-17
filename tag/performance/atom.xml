@@ -829,9 +829,9 @@ Visit-time: 0200-0600
     
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
-    
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
+    
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
   </entry>
   
@@ -884,9 +884,9 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
-    
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
+    
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
   </entry>
   
@@ -906,9 +906,9 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     </summary>
     
     
-      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
-    
       <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+    
+      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
       <category term="yahoo" scheme="https://jmperezperez.com/tags/yahoo/"/>
     
@@ -932,11 +932,11 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     </summary>
     
     
-      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
+      <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
-      <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
+      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
   </entry>
   
@@ -991,9 +991,9 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     </summary>
     
     
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
-    
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
+    
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="lazy loading" scheme="https://jmperezperez.com/tags/lazy-loading/"/>
     
@@ -1019,13 +1019,13 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
-      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
-    
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+      <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
-      <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+    
+      <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
   </entry>
   

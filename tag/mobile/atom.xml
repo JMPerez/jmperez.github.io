@@ -77,11 +77,11 @@
     </summary>
     
     
-      <category term="future friendly" scheme="https://jmperezperez.com/tags/future-friendly/"/>
+      <category term="progressive enhancement" scheme="https://jmperezperez.com/tags/progressive-enhancement/"/>
     
       <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
     
-      <category term="progressive enhancement" scheme="https://jmperezperez.com/tags/progressive-enhancement/"/>
+      <category term="future friendly" scheme="https://jmperezperez.com/tags/future-friendly/"/>
     
       <category term="webapp" scheme="https://jmperezperez.com/tags/webapp/"/>
     
@@ -192,15 +192,15 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
-    
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+      <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
     
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
-      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
-      <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
+      <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
+    
+      <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
     
   </entry>
   
