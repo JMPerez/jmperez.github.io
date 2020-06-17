@@ -95,9 +95,9 @@ Visit-time: 0200-0600
     </summary>
     
     
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
-    
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
+    
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
@@ -150,9 +150,9 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     </summary>
     
     
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
-    
       <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
+    
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="performance" scheme="https://jmperezperez.com/tags/performance/"/>
     
@@ -263,15 +263,15 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+      <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
     
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="ajax" scheme="https://jmperezperez.com/tags/ajax/"/>
     
       <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
-    
-      <category term="mobile" scheme="https://jmperezperez.com/tags/mobile/"/>
     
   </entry>
   
@@ -291,15 +291,15 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="bootloader" scheme="https://jmperezperez.com/tags/bootloader/"/>
+      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
+    
+      <category term="bootloader" scheme="https://jmperezperez.com/tags/bootloader/"/>
     
       <category term="frontend" scheme="https://jmperezperez.com/tags/frontend/"/>
     
       <category term="haste" scheme="https://jmperezperez.com/tags/haste/"/>
-    
-      <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
       <category term="primer" scheme="https://jmperezperez.com/tags/primer/"/>
     
