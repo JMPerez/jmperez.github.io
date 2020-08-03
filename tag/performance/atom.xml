@@ -1017,9 +1017,9 @@ Disallow: /legis9/publicaciones/pdf/cortes/bocg/CG_B100.PDF
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
-    
       <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+    
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
