@@ -35,41 +35,40 @@
       
   }
 }</script><div class="media author"><div class=img><a href="/about-me/?ref=post-header"><img src=https://res.cloudinary.com/jmperez/image/upload/w_120,f_auto,c_scale/v1519156883/profile_ysrm5y.jpg class=avatar-img alt height=53 width=53 sizes=53px></a></div><div class=bd><address class=name itemprop=author itemscope itemtype=https://schema.org/Person><a href="/about-me/" itemprop=name>José M. Pérez</a></address><meta class=post-data itemprop=datePublished content=2010-06-21T14:33:44.000Z>June 21, 2010 <span style="margin:0 .5rem;display:inline-block">|</span> Reading Time: ~<time>1 mins</time></div></div><h1>Tracking action execution time in ASP.Net MVC</h1></header><p>Using filter attributes we can add features to our actions or controllers easily. In this case, I have implemented an action filter attribute that stores how much time has taken to execute an action.</p><a id=more></a><pre class=language-csharp><code class=language-csharp><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">TrackTimeFilter</span> <span class="token punctuation">:</span> ActionFilterAttribute
-<span class="token punctuation">{</span>
+<span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
   Stopwatch stopWatch<span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token keyword">void</span> <span class="token function">OnActionExecuting</span><span class="token punctuation">(</span>ActionExecutingContext filterContext<span class="token punctuation">)</span>
-  <span class="token punctuation">{</span>
+  <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
     stopWatch <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Stopwatch</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     stopWatch<span class="token punctuation">.</span><span class="token function">Start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
   <span class="token keyword">public</span> <span class="token keyword">override</span> <span class="token keyword">void</span> <span class="token function">OnResultExecuted</span><span class="token punctuation">(</span>ResultExecutedContext filterContext<span class="token punctuation">)</span>
-  <span class="token punctuation">{</span>
+  <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
     stopWatch<span class="token punctuation">.</span><span class="token function">Stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token function">Log</span><span class="token punctuation">(</span>filterContext<span class="token punctuation">.</span>RouteData<span class="token punctuation">,</span> stopWatch<span class="token punctuation">.</span>ElapsedMilliseconds<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
   <span class="token keyword">private</span> <span class="token keyword">void</span> <span class="token function">Log</span><span class="token punctuation">(</span>RouteData routeData<span class="token punctuation">,</span> <span class="token keyword">long</span> time<span class="token punctuation">)</span>
-  <span class="token punctuation">{</span>
+  <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
     <span class="token keyword">var</span> controllerName <span class="token operator">=</span> routeData<span class="token punctuation">.</span>Values<span class="token punctuation">[</span><span class="token string">"controller"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token keyword">var</span> actionName <span class="token operator">=</span> routeData<span class="token punctuation">.</span>Values<span class="token punctuation">[</span><span class="token string">"action"</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     ElapsedTime<span class="token punctuation">.</span><span class="token function">InsertEntity</span><span class="token punctuation">(</span>time<span class="token punctuation">,</span> controllerName <span class="token operator">+</span> <span class="token string">"."</span> <span class="token operator">+</span> actionName<span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre><p>Here we have used Stopwatch to accurately measure the time from the moment the action starts its execution to the moment when a return is made (usually to start rendering the view).</p><p><strong>ElapsedTime</strong> is a static class that stores the measures, so that we can see the times (I use a Asp.Net MVC view that runs through the values and shows the grouped times.</p><pre class=language-csharp><code class=language-csharp><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">ElapsedTime</span>
-<span class="token punctuation">{</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span></code></pre><p>Here we have used Stopwatch to accurately measure the time from the moment the action starts its execution to the moment when a return is made (usually to start rendering the view).</p><p><strong>ElapsedTime</strong> is a static class that stores the measures, so that we can see the times (I use a Asp.Net MVC view that runs through the values and shows the grouped times.</p><pre class=language-csharp><code class=language-csharp><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">class</span> <span class="token class-name">ElapsedTime</span>
+<span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">static</span> Dictionary IdentifiedElapseds <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Dictionary</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
   <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">InsertEntity</span><span class="token punctuation">(</span><span class="token keyword">long</span> milliseconds<span class="token punctuation">,</span> <span class="token keyword">string</span> identifier<span class="token punctuation">)</span>
-  <span class="token punctuation">{</span>
+  <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
      <span class="token keyword">lock</span> <span class="token punctuation">(</span>IdentifiedElapseds<span class="token punctuation">)</span>
-     <span class="token punctuation">{</span>
+     <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
        ElapsedTimeEntity entry<span class="token punctuation">;</span>
        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>IdentifiedElapseds<span class="token punctuation">.</span><span class="token function">TryGetValue</span><span class="token punctuation">(</span>identifier<span class="token punctuation">,</span> <span class="token keyword">out</span> entry<span class="token punctuation">)</span><span class="token punctuation">)</span>
-       <span class="token punctuation">{</span>
+       <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
          entry <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ElapsedTimeEntity</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
          IdentifiedElapseds<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>identifier<span class="token punctuation">,</span> entry<span class="token punctuation">)</span><span class="token punctuation">;</span>
-       <span class="token punctuation">}</span>
+       <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
        entry<span class="token punctuation">.</span>LastTime <span class="token operator">=</span> milliseconds<span class="token punctuation">;</span>
        entry<span class="token punctuation">.</span>LastDate <span class="token operator">=</span> DateTime<span class="token punctuation">.</span>UtcNow<span class="token punctuation">;</span>
@@ -80,26 +79,25 @@
          entry<span class="token punctuation">.</span>MinTime <span class="token operator">=</span> milliseconds<span class="token punctuation">;</span> entry<span class="token punctuation">.</span>MinDate <span class="token operator">=</span> DateTime<span class="token punctuation">.</span>UtcNow<span class="token punctuation">;</span>
        <span class="token keyword">if</span> <span class="token punctuation">(</span>milliseconds <span class="token operator">&amp;</span>gt<span class="token punctuation">;</span> entry<span class="token punctuation">.</span>MaxTime<span class="token punctuation">)</span>
          entry<span class="token punctuation">.</span>MaxTime <span class="token operator">=</span> milliseconds<span class="token punctuation">;</span> entry<span class="token punctuation">.</span>MaxDate <span class="token operator">=</span> DateTime<span class="token punctuation">.</span>UtcNow<span class="token punctuation">;</span>
-     <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
+     <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
 <span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">ElapsedTimeEntity</span>
-<span class="token punctuation">{</span>
+<span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">long</span> LastTime <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">long</span> TotalTime <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">int</span> Count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">long</span> MinTime <span class="token operator">=</span> <span class="token keyword">long</span><span class="token punctuation">.</span>MaxValue<span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">long</span> MaxTime <span class="token operator">=</span> <span class="token keyword">long</span><span class="token punctuation">.</span>MinValue<span class="token punctuation">;</span>
   <span class="token keyword">public</span> <span class="token keyword">double</span> Average
-  <span class="token punctuation">{</span>
-    <span class="token keyword">get</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token punctuation">(</span>TotalTime <span class="token operator">/</span> Count<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
+  <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token keyword">get</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span> <span class="token keyword">return</span> <span class="token punctuation">(</span>TotalTime <span class="token operator">/</span> Count<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+  <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
   <span class="token keyword">public</span> DateTime MinDate<span class="token punctuation">;</span>
   <span class="token keyword">public</span> DateTime MaxDate<span class="token punctuation">;</span>
-  <span class="token keyword">public</span> DateTime LastDate<span class="token punctuation">;</span>
-</code></pre></div><hr>Tags:<ul class=tag-list><li class=tag-list-item><a class=tag-list-link href="/tags/asp-net-mvc/">asp net mvc</a></li></ul></article></div><script>"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").then(function(n){})["catch"](function(n){})});</script><footer><section class=links><a href=https://twitter.com/jmperezperez rel=me>@jmperezperez</a> on Twitter · <a href=https://github.com/JMPerez rel=me>GitHub</a> · <a href=https://www.linkedin.com/in/jmperezperez>LinkedIn</a> · <a href=https://medium.com/@jmperezperez>Medium</a></section><div class=timing-stats></div></footer><script>window.addEventListener('load', () => {
+  <span class="token keyword">public</span> DateTime LastDate<span class="token punctuation">;</span></code></pre></div><hr>Tags:<ul class=tag-list><li class=tag-list-item><a class=tag-list-link href="/tags/asp-net-mvc/">asp net mvc</a></li></ul></article></div><script>"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js").then(function(n){})["catch"](function(n){})});</script><footer><section class=links><a href=https://twitter.com/jmperezperez rel=me>@jmperezperez</a> on Twitter · <a href=https://github.com/JMPerez rel=me>GitHub</a> · <a href=https://www.linkedin.com/in/jmperezperez>LinkedIn</a> · <a href=https://medium.com/@jmperezperez>Medium</a></section><div class=timing-stats></div></footer><script>window.addEventListener('load', () => {
      setTimeout(() => {
       var t = window.performance && performance.timing;
       function round2(num) { return Math.round(num * 100) / 100; }
