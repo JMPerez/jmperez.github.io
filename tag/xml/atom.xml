@@ -22,11 +22,7 @@
     <published>2010-07-24T07:02:20.000Z</published>
     <updated>2019-10-31T22:46:22.863Z</updated>
     
-    <content type="html"><![CDATA[<p>Today I have implemented an action in ASP.Net MVC that generates a sitemap containing the images of a website we are developing, just to check how this affects to the amount of images indexed in google images.</p>
-<p>The XML structure, as well as the optional parameters, are defined on <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=178636">Adding image information to a Sitemap</a> on Google Webmaster central.</p>
-<a id="more"></a>
-<p>The code I use is the following one:</p>
-<pre class=" language-csharp"><code class="language-csharp">XNamespace ns <span class="token operator">=</span> <span class="token string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="token punctuation">;</span>
+    <content type="html"><![CDATA[<p>Today I have implemented an action in ASP.Net MVC that generates a sitemap containing the images of a website we are developing, just to check how this affects to the amount of images indexed in google images.</p><p>The XML structure, as well as the optional parameters, are defined on <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=178636" target="_blank" rel="noopener">Adding image information to a Sitemap</a> on Google Webmaster central.</p><a id="more"></a><p>The code I use is the following one:</p><pre class=" language-csharp"><code class="language-csharp">XNamespace ns <span class="token operator">=</span> <span class="token string">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="token punctuation">;</span>
 XNamespace nsImage <span class="token operator">=</span> <span class="token string">"http://www.google.com/schemas/sitemap-image/1.1"</span><span class="token punctuation">;</span>
 XDocument xmlDoc <span class="token operator">=</span>
   <span class="token keyword">new</span> <span class="token class-name">XDocument</span><span class="token punctuation">(</span>
@@ -41,17 +37,8 @@ XDocument xmlDoc <span class="token operator">=</span>
               <span class="token keyword">new</span> <span class="token class-name">XElement</span><span class="token punctuation">(</span>nsImage <span class="token operator">+</span> <span class="token string">"loc"</span><span class="token punctuation">,</span> image<span class="token punctuation">.</span>UrlPage<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
           <span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token keyword">return</span> <span class="token function">Content</span><span class="token punctuation">(</span>xmlDoc<span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<p>where <strong>images</strong> is a list of objects that contains the url of the page where the image appears (UrlPage) as well as the url for the source image file (UrlImage). In this example, each page would contain just one image.</p>
-<p>Optional parameters can be added:</p>
-<ul>
-<li><strong>Title</strong>: It would be equivalent to the alt text of the image</li>
-<li><strong>Caption</strong>: A brief description of the image</li>
-<li><strong>Geo_location</strong>: From the documentation, it seems it is the name of the place / city depicted in the picture or where it was taken, and not the geo coordinates.</li>
-<li><strong>License</strong></li>
-</ul>
-<p>I hope this can help those people willing to try this feature from Google.</p>
-]]></content>
+<span class="token keyword">return</span> <span class="token function">Content</span><span class="token punctuation">(</span>xmlDoc<span class="token punctuation">.</span><span class="token function">ToString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><p>where <strong>images</strong> is a list of objects that contains the url of the page where the image appears (UrlPage) as well as the url for the source image file (UrlImage). In this example, each page would contain just one image.</p><p>Optional parameters can be added:</p><ul><li><strong>Title</strong>: It would be equivalent to the alt text of the image</li><li><strong>Caption</strong>: A brief description of the image</li><li><strong>Geo_location</strong>: From the documentation, it seems it is the name of the place / city depicted in the picture or where it was taken, and not the geo coordinates.</li><li><strong>License</strong></li></ul><p>I hope this can help those people willing to try this feature from Google.</p>]]></content>
     
     <summary type="html">
     
