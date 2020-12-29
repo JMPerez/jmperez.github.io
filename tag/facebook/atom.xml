@@ -57,9 +57,9 @@
     
       <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
-      <category term="ux" scheme="https://jmperezperez.com/tags/ux/"/>
-    
       <category term="webp" scheme="https://jmperezperez.com/tags/webp/"/>
+    
+      <category term="ux" scheme="https://jmperezperez.com/tags/ux/"/>
     
   </entry>
   
@@ -214,9 +214,9 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
-    
       <category term="ios" scheme="https://jmperezperez.com/tags/ios/"/>
+    
+      <category term="facebook" scheme="https://jmperezperez.com/tags/facebook/"/>
     
       <category term="javascript" scheme="https://jmperezperez.com/tags/javascript/"/>
     
@@ -690,9 +690,9 @@ document<span class="token punctuation">.</span><span class="token function">add
     </summary>
     
     
-      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
-    
       <category term="flush" scheme="https://jmperezperez.com/tags/flush/"/>
+    
+      <category term="optimization" scheme="https://jmperezperez.com/tags/optimization/"/>
     
       <category term="bigpipe" scheme="https://jmperezperez.com/tags/bigpipe/"/>
     
